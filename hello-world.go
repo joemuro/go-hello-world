@@ -13,4 +13,5 @@ func main() {
     fmt.Printf("hostname: %s\n",hostname) 
     fmt.Printf("NumCPUs: %d\n",runtime.NumCPU())
     fmt.Printf("golang-version: %s\n", runtime.Version())
+    fmt.Println("goodbye")
 }
