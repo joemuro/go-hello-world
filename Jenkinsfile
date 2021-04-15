@@ -10,7 +10,7 @@ metadata:
 spec:
   containers:
   - name: golang
-    image: golang:1.15.0-alpine
+    image: golang:1.16.3-alpine
     command:
     - cat
     tty: true
